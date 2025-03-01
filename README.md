@@ -9,6 +9,9 @@
 
 This project implements an autonomous multi-drone system for search and rescue operations using reinforcement learning. The system trains drone swarms to efficiently search areas, detect victims, and optimize rescue routes while maintaining optimal flight patterns. The project includes:
 
+![Multi Drone Training](https://github.com/SaraffAbhishek/Autonomous-Search-and-Rescue-Drone/blob/e1a800a7aed0cd0b18775f1ce3a5e279343b5a83/assets/multi.png)
+![FOV Visualization](https://github.com/SaraffAbhishek/Autonomous-Search-and-Rescue-Drone/blob/e1a800a7aed0cd0b18775f1ce3a5e279343b5a83/assets/fov.png)
+
 - A PyBullet-based simulation environment for training and testing drone behaviors
 - Reinforcement learning models using PPO (Proximal Policy Optimization)
 - A real-time monitoring dashboard for training visualization
@@ -46,6 +49,8 @@ The project includes a React-based dashboard for real-time monitoring of trainin
 - **Drone status monitoring**: Track position, battery levels, and performance
 - **Training metrics**: Monitor episode length, victim discovery rate, and area coverage
 - **Dark theme UI**: Modern and sleek interface for better visibility
+
+![RL Dashboard](https://github.com/SaraffAbhishek/Autonomous-Search-and-Rescue-Drone/blob/e1a800a7aed0cd0b18775f1ce3a5e279343b5a83/assets/frontend.png)
 
 ### Setup
 
