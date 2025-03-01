@@ -27,34 +27,6 @@ This project implements an autonomous multi-drone system for search and rescue o
 - **Automated Status Reports**: HTML email updates with mission progress and rescue recommendations
 - **Rescue Route Optimization**: Automatically suggests optimal paths to reach detected victims
 
-## 🏗️ Project Structure
-
-```
-.
-├── RL_Training_FrontendReport    # Training visualization dashboard
-│   ├── package-lock.json
-│   ├── package.json
-│   ├── public                    # Static assets
-│   └── src                       # React source code
-│       ├── App.css
-│       ├── App.js
-│       ├── components            # UI components
-│       ├── dash.js               # Dashboard implementation
-├── data                          # Simulation assets
-│   ├── Quadrotor                 # Drone model files
-│   │   ├── LICENSE.txt
-│   │   ├── quadrotor.urdf        # Drone URDF definition
-│   │   └── quadrotor_base.obj
-│   ├── checker_blue.png
-│   ├── plane.mtl
-│   ├── plane.obj
-│   └── plane.urdf                # Environment model
-├── fourDrones_final.py           # Multi-drone simulation
-├── requirements.txt              # Python dependencies
-├── singleDroneWithFOV.py         # Drone simulation with FOV visualization
-└── singleDrone_final.py          # Optimized single drone simulation
-```
-
 ## 🧠 Technical Architecture
 
 ### System Components
