@@ -56,7 +56,7 @@ The project includes a React-based dashboard for real-time monitoring of trainin
 1. **Clone the repository**:
    ```bash
    git clone https://github.com/SaraffAbhishek/Autonomous-Search-and-Rescue-Drone.git
-   cd Autonomous-Search-and-Rescue-Drone
+   cd Autonomous-Search-and-Rescue-Drone/Drone-RL-Processing
    ```
 
 2. **Create and activate a virtual environment**:
